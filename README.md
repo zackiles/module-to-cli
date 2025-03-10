@@ -15,7 +15,7 @@ Module to CLI automatically generates a command-line interface for your TypeScri
 deno add @deno-kit/module-to-cli
 
 # Or use directly via import
-import { ... } from "@deno-kit/module-to-cli";
+import moduleToCLI from "@deno-kit/module-to-cli";
 ```
 
 ## Quick Start
