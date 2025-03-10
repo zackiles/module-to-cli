@@ -1,0 +1,708 @@
+
+// complicated-module.ts was auto-generated for testing purposes. Do NOT edit it!
+// It represents a golden response from the AST parser for the associated file with the same name (different extension).
+//
+// You can re-generate it by running:
+//   'deno task golden-mocks'
+{
+  "methods": {
+    "publicAsyncFunctionWithTypedArgs": {
+      "name": "publicAsyncFunctionWithTypedArgs",
+      "description": "publicAsyncFunctionWithTypedArgs",
+      "params": [
+        {
+          "name": "arg1",
+          "type": {
+            "baseType": "Array",
+            "typeArguments": [
+              {
+                "baseType": "Item",
+                "isOptional": false,
+                "isNullable": false,
+                "rawType": "Item"
+              }
+            ],
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "Item[]"
+          },
+          "description": "- Random array of type Item",
+          "optional": false
+        },
+        {
+          "name": "arg2",
+          "type": {
+            "baseType": "number",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "number"
+          },
+          "description": "- Random number",
+          "optional": false
+        }
+      ],
+      "returns": {
+        "type": {
+          "baseType": "Promise",
+          "typeArguments": [
+            {
+              "baseType": "[Item[], number]",
+              "isOptional": false,
+              "isNullable": false,
+              "rawType": "[Item[], number]"
+            }
+          ],
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "Promise<[Item[], number]>"
+        },
+        "description": ""
+      },
+      "methodKind": "function",
+      "isAsync": true,
+      "visibility": "public"
+    },
+    "MultiMethodClass.constructor": {
+      "name": "MultiMethodClass.constructor",
+      "description": "Constructor with a single option typed argument",
+      "params": [
+        {
+          "name": "arg1",
+          "type": {
+            "baseType": "SimpleArgsInterfaceType",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "SimpleArgsInterfaceType"
+          },
+          "description": "- Configuration options",
+          "optional": false
+        }
+      ],
+      "returns": null,
+      "methodKind": "constructor",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "MultiMethodClass.publicInstanceMethodWithTypedArgAndReturn": {
+      "name": "MultiMethodClass.publicInstanceMethodWithTypedArgAndReturn",
+      "description": "Processes a single item",
+      "params": [
+        {
+          "name": "arg1",
+          "type": {
+            "baseType": "Item",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "Item"
+          },
+          "description": "- The item to process",
+          "optional": false
+        }
+      ],
+      "returns": {
+        "type": {
+          "baseType": "[Item]",
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "[Item]"
+        },
+        "description": ""
+      },
+      "methodKind": "instance",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "MultiMethodClass._validate": {
+      "name": "MultiMethodClass._validate",
+      "description": "Validates input",
+      "params": [
+        {
+          "name": "arg1",
+          "type": {
+            "baseType": "Item",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "Item"
+          },
+          "description": "- The item to validate",
+          "optional": false
+        }
+      ],
+      "returns": {
+        "type": {
+          "baseType": "[Item]",
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "[Item]"
+        },
+        "description": ""
+      },
+      "methodKind": "instance",
+      "isAsync": false,
+      "visibility": "private"
+    },
+    "MultiMethodClass.processBatch": {
+      "name": "MultiMethodClass.processBatch",
+      "description": "Processes multiple items",
+      "params": [
+        {
+          "name": "arg1",
+          "type": {
+            "baseType": "Array",
+            "typeArguments": [
+              {
+                "baseType": "Item",
+                "isOptional": false,
+                "isNullable": false,
+                "rawType": "Item"
+              }
+            ],
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "Item[]"
+          },
+          "description": "- Array of items",
+          "optional": false
+        }
+      ],
+      "returns": {
+        "type": {
+          "baseType": "Promise",
+          "typeArguments": [
+            {
+              "baseType": "[Item[]]",
+              "isOptional": false,
+              "isNullable": false,
+              "rawType": "[Item[]]"
+            }
+          ],
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "Promise<[Item[]]>"
+        },
+        "description": ""
+      },
+      "methodKind": "instance",
+      "isAsync": true,
+      "visibility": "public"
+    },
+    "MultiMethodClass.publicMethodWithItemArg": {
+      "name": "MultiMethodClass.publicMethodWithItemArg",
+      "description": "publicMethodWithItemArg",
+      "params": [
+        {
+          "name": "arg1",
+          "type": {
+            "baseType": "Item",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "Item"
+          },
+          "description": "- Item to process",
+          "optional": false
+        }
+      ],
+      "returns": {
+        "type": {
+          "baseType": "[Item]",
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "[Item]"
+        },
+        "description": "containing processed item"
+      },
+      "methodKind": "instance",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "MultiMethodClass.publicAsyncMethodWithItemArrayArg": {
+      "name": "MultiMethodClass.publicAsyncMethodWithItemArrayArg",
+      "description": "publicAsyncMethodWithItemArrayArg",
+      "params": [
+        {
+          "name": "arg1",
+          "type": {
+            "baseType": "Array",
+            "typeArguments": [
+              {
+                "baseType": "Item",
+                "isOptional": false,
+                "isNullable": false,
+                "rawType": "Item"
+              }
+            ],
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "Item[]"
+          },
+          "description": "- Array of items to process in batch",
+          "optional": false
+        }
+      ],
+      "returns": {
+        "type": {
+          "baseType": "Promise",
+          "typeArguments": [
+            {
+              "baseType": "[Item[]]",
+              "isOptional": false,
+              "isNullable": false,
+              "rawType": "[Item[]]"
+            }
+          ],
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "Promise<[Item[]]>"
+        },
+        "description": "of tuple containing processed items"
+      },
+      "methodKind": "instance",
+      "isAsync": true,
+      "visibility": "public"
+    },
+    "MultiMethodClass.createSimpleReturnFromArgs": {
+      "name": "MultiMethodClass.createSimpleReturnFromArgs",
+      "description": "Creates a simple return type from simple args type",
+      "params": [],
+      "returns": {
+        "type": {
+          "baseType": "[SimpleArgsInterfaceType]",
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "[SimpleArgsInterfaceType]"
+        },
+        "description": ""
+      },
+      "methodKind": "static",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "MultiMethodClass._generateId": {
+      "name": "MultiMethodClass._generateId",
+      "description": "Generates unique identifier",
+      "params": [],
+      "returns": {
+        "type": {
+          "baseType": "Array",
+          "typeArguments": [
+            {
+              "baseType": "",
+              "isOptional": false,
+              "isNullable": false,
+              "rawType": ""
+            }
+          ],
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "[]"
+        },
+        "description": "ID"
+      },
+      "methodKind": "static",
+      "isAsync": false,
+      "visibility": "private"
+    },
+    "MultiMethodClass.publicStaticFunctionWithNoArgs": {
+      "name": "MultiMethodClass.publicStaticFunctionWithNoArgs",
+      "description": "publicStaticFunctionWithNoArgs",
+      "params": [],
+      "returns": {
+        "type": {
+          "baseType": "[SimpleArgsInterfaceType]",
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "[SimpleArgsInterfaceType]"
+        },
+        "description": "containing default configuration"
+      },
+      "methodKind": "static",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "MultiMethodClass.privateStaticFunctionWithNoArgs": {
+      "name": "MultiMethodClass.privateStaticFunctionWithNoArgs",
+      "description": "privateStaticFunctionWithNoArgs",
+      "params": [],
+      "returns": {
+        "type": {
+          "baseType": "Array",
+          "typeArguments": [
+            {
+              "baseType": "",
+              "isOptional": false,
+              "isNullable": false,
+              "rawType": ""
+            }
+          ],
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "[]"
+        },
+        "description": "tuple"
+      },
+      "methodKind": "static",
+      "isAsync": false,
+      "visibility": "private"
+    },
+    "MultiMethodClass.get": {
+      "name": "MultiMethodClass.get",
+      "description": "Retrieves an item by key",
+      "params": [
+        {
+          "name": "arg1",
+          "type": {
+            "baseType": "string",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "string"
+          },
+          "description": "- The unique identifier",
+          "optional": false
+        }
+      ],
+      "returns": {
+        "type": {
+          "baseType": "[string]",
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "[string]"
+        },
+        "description": ""
+      },
+      "methodKind": "property",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "MultiMethodClass.getSimpleReturnType": {
+      "name": "MultiMethodClass.getSimpleReturnType",
+      "description": "Gets a SimpleReturnInterfaceType instance",
+      "params": [],
+      "returns": {
+        "type": {
+          "baseType": "[SimpleReturnInterfaceType]",
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "[SimpleReturnInterfaceType]"
+        },
+        "description": ""
+      },
+      "methodKind": "property",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "MultiMethodClass.publicArrowFunctionWithStringArg": {
+      "name": "MultiMethodClass.publicArrowFunctionWithStringArg",
+      "description": "publicArrowFunctionWithStringArg",
+      "params": [
+        {
+          "name": "arg1",
+          "type": {
+            "baseType": "string",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "string"
+          },
+          "description": "- Unique identifier to retrieve item",
+          "optional": false
+        }
+      ],
+      "returns": {
+        "type": {
+          "baseType": "[string]",
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "[string]"
+        },
+        "description": "containing retrieved item key"
+      },
+      "methodKind": "property",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "MultiMethodClass.size": {
+      "name": "MultiMethodClass.size",
+      "description": "Gets total size",
+      "params": [],
+      "returns": {
+        "type": {
+          "baseType": "number",
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "number"
+        },
+        "description": "size"
+      },
+      "methodKind": "getter",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "MultiMethodClass.publicSetWithSingleArg": {
+      "name": "MultiMethodClass.publicSetWithSingleArg",
+      "description": "Public setter with a single argument",
+      "params": [
+        {
+          "name": "arg1",
+          "type": {
+            "baseType": "number",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "number"
+          },
+          "description": "- Timeout value in milliseconds",
+          "optional": false
+        }
+      ],
+      "returns": null,
+      "methodKind": "setter",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "MultiMethodClass.publicSetterWithNumberArg": {
+      "name": "MultiMethodClass.publicSetterWithNumberArg",
+      "description": "publicSetterWithNumberArg",
+      "params": [
+        {
+          "name": "arg1",
+          "type": {
+            "baseType": "number",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "number"
+          },
+          "description": "- Timeout duration in milliseconds",
+          "optional": false
+        }
+      ],
+      "returns": null,
+      "methodKind": "setter",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "PublicMethodClass.publicMethod": {
+      "name": "PublicMethodClass.publicMethod",
+      "description": "Transform data",
+      "params": [],
+      "returns": null,
+      "methodKind": "instance",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "PrivateMethodClass.constructor": {
+      "name": "PrivateMethodClass.constructor",
+      "description": "",
+      "params": [],
+      "returns": null,
+      "methodKind": "constructor",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "PrivateMethodClass.privateMethod": {
+      "name": "PrivateMethodClass.privateMethod",
+      "description": "Transform data",
+      "params": [],
+      "returns": null,
+      "methodKind": "instance",
+      "isAsync": false,
+      "visibility": "private"
+    },
+    "publicFunctionWithFunctionAndNumberArgs": {
+      "name": "publicFunctionWithFunctionAndNumberArgs",
+      "description": "",
+      "params": [],
+      "returns": null,
+      "methodKind": "function",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "publicArrowFunctionWithFunctionArg": {
+      "name": "publicArrowFunctionWithFunctionArg",
+      "description": "",
+      "params": [],
+      "returns": null,
+      "methodKind": "function",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "publicFunctionWithUnknownArg": {
+      "name": "publicFunctionWithUnknownArg",
+      "description": "",
+      "params": [],
+      "returns": null,
+      "methodKind": "function",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "publicArrowFunctionWithUnknownArg": {
+      "name": "publicArrowFunctionWithUnknownArg",
+      "description": "",
+      "params": [],
+      "returns": null,
+      "methodKind": "function",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "publicArrowFunctionWithUnknownArrayArgs": {
+      "name": "publicArrowFunctionWithUnknownArrayArgs",
+      "description": "",
+      "params": [],
+      "returns": null,
+      "methodKind": "function",
+      "isAsync": false,
+      "visibility": "public"
+    }
+  },
+  "module": {
+    "name": "temp",
+    "description": "",
+    "fileName": "temp.ts",
+    "imports": [],
+    "exports": [
+      {
+        "name": "assert",
+        "isDefault": false,
+        "isReexport": true,
+        "sourceModule": "@std/assert"
+      },
+      {
+        "name": "MultiMethodClass",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "PublicMethodClass",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "PrivateMethodClass",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "publicAsyncFunctionWithTypedArgs",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "publicFunctionWithFunctionAndNumberArgs",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "publicArrowFunctionWithFunctionArg",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "publicFunctionWithUnknownArg",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "publicArrowFunctionWithUnknownArg",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "publicArrowFunctionWithUnknownArrayArgs",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "publicMethodInstance",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "privateMethodInstance",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "externalClass",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "externalFunction",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "defaultInstance",
+        "isDefault": true,
+        "isReexport": false
+      },
+      {
+        "name": "0",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "1",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "2",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "3",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "4",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "5",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "6",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "7",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "8",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "9",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "10",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "11",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "12",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "13",
+        "isDefault": false,
+        "isReexport": false
+      }
+    ]
+  }
+}

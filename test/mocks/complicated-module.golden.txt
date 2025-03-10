@@ -1,0 +1,293 @@
+Module Information:
+==================
+
+Name: temp
+File: temp.ts
+Exports:
+  - assert from "@std/assert"
+  - MultiMethodClass
+  - PublicMethodClass
+  - PrivateMethodClass
+  - publicAsyncFunctionWithTypedArgs
+  - publicFunctionWithFunctionAndNumberArgs
+  - publicArrowFunctionWithFunctionArg
+  - publicFunctionWithUnknownArg
+  - publicArrowFunctionWithUnknownArg
+  - publicArrowFunctionWithUnknownArrayArgs
+  - publicMethodInstance
+  - privateMethodInstance
+  - externalClass
+  - externalFunction
+  - defaultInstance (default export)
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+
+
+
+🚀 Module Methods
+════════════════════════════════════════════════════════════
+Detailed Method Information
+
+📄 publicAsyncFunctionWithTypedArgs
+  ────────────────────────────────────────
+  [Function Method] [public] [async]
+  publicAsyncFunctionWithTypedArgs
+
+  ⚙️ Parameters:
+    arg1: Item[]
+      - Random array of type Item
+    arg2: number
+      - Random number
+
+  📋 Returns:
+    Promise<[Item[], number]>
+
+📄 MultiMethodClass.constructor
+  ────────────────────────────────────────
+  [Constructor Method] [public]
+  Constructor with a single option typed argument
+
+  ⚙️ Parameters:
+    arg1: SimpleArgsInterfaceType
+      - Configuration options
+
+📄 MultiMethodClass.publicInstanceMethodWithTypedArgAndReturn
+  ────────────────────────────────────────
+  [Instance Method] [public]
+  Processes a single item
+
+  ⚙️ Parameters:
+    arg1: Item
+      - The item to process
+
+  📋 Returns:
+    [Item]
+
+📄 MultiMethodClass._validate
+  ────────────────────────────────────────
+  [Instance Method] [private]
+  Validates input
+
+  ⚙️ Parameters:
+    arg1: Item
+      - The item to validate
+
+  📋 Returns:
+    [Item]
+
+📄 MultiMethodClass.processBatch
+  ────────────────────────────────────────
+  [Instance Method] [public] [async]
+  Processes multiple items
+
+  ⚙️ Parameters:
+    arg1: Item[]
+      - Array of items
+
+  📋 Returns:
+    Promise<[Item[]]>
+
+📄 MultiMethodClass.publicMethodWithItemArg
+  ────────────────────────────────────────
+  [Instance Method] [public]
+  publicMethodWithItemArg
+
+  ⚙️ Parameters:
+    arg1: Item
+      - Item to process
+
+  📋 Returns:
+    [Item]
+    containing processed item
+
+📄 MultiMethodClass.publicAsyncMethodWithItemArrayArg
+  ────────────────────────────────────────
+  [Instance Method] [public] [async]
+  publicAsyncMethodWithItemArrayArg
+
+  ⚙️ Parameters:
+    arg1: Item[]
+      - Array of items to process in batch
+
+  📋 Returns:
+    Promise<[Item[]]>
+    of tuple containing processed items
+
+📄 MultiMethodClass.createSimpleReturnFromArgs
+  ────────────────────────────────────────
+  [Static Method] [public]
+  Creates a simple return type from simple args type
+
+  ⚙️ Parameters: none
+
+  📋 Returns:
+    [SimpleArgsInterfaceType]
+
+📄 MultiMethodClass._generateId
+  ────────────────────────────────────────
+  [Static Method] [private]
+  Generates unique identifier
+
+  ⚙️ Parameters: none
+
+  📋 Returns:
+    []
+    ID
+
+📄 MultiMethodClass.publicStaticFunctionWithNoArgs
+  ────────────────────────────────────────
+  [Static Method] [public]
+  publicStaticFunctionWithNoArgs
+
+  ⚙️ Parameters: none
+
+  📋 Returns:
+    [SimpleArgsInterfaceType]
+    containing default configuration
+
+📄 MultiMethodClass.privateStaticFunctionWithNoArgs
+  ────────────────────────────────────────
+  [Static Method] [private]
+  privateStaticFunctionWithNoArgs
+
+  ⚙️ Parameters: none
+
+  📋 Returns:
+    []
+    tuple
+
+📄 MultiMethodClass.get
+  ────────────────────────────────────────
+  [Property Method] [public]
+  Retrieves an item by key
+
+  ⚙️ Parameters:
+    arg1: string
+      - The unique identifier
+
+  📋 Returns:
+    [string]
+
+📄 MultiMethodClass.getSimpleReturnType
+  ────────────────────────────────────────
+  [Property Method] [public]
+  Gets a SimpleReturnInterfaceType instance
+
+  ⚙️ Parameters: none
+
+  📋 Returns:
+    [SimpleReturnInterfaceType]
+
+📄 MultiMethodClass.publicArrowFunctionWithStringArg
+  ────────────────────────────────────────
+  [Property Method] [public]
+  publicArrowFunctionWithStringArg
+
+  ⚙️ Parameters:
+    arg1: string
+      - Unique identifier to retrieve item
+
+  📋 Returns:
+    [string]
+    containing retrieved item key
+
+📄 MultiMethodClass.size
+  ────────────────────────────────────────
+  [Getter Method] [public]
+  Gets total size
+
+  ⚙️ Parameters: none
+
+  📋 Returns:
+    number
+    size
+
+📄 MultiMethodClass.publicSetWithSingleArg
+  ────────────────────────────────────────
+  [Setter Method] [public]
+  Public setter with a single argument
+
+  ⚙️ Parameters:
+    arg1: number
+      - Timeout value in milliseconds
+
+📄 MultiMethodClass.publicSetterWithNumberArg
+  ────────────────────────────────────────
+  [Setter Method] [public]
+  publicSetterWithNumberArg
+
+  ⚙️ Parameters:
+    arg1: number
+      - Timeout duration in milliseconds
+
+📄 PublicMethodClass.publicMethod
+  ────────────────────────────────────────
+  [Instance Method] [public]
+  Transform data
+
+  ⚙️ Parameters: none
+
+  📋 Returns: void
+
+📄 PrivateMethodClass.constructor
+  ────────────────────────────────────────
+  [Constructor Method] [public]
+  ⚙️ Parameters: none
+
+📄 PrivateMethodClass.privateMethod
+  ────────────────────────────────────────
+  [Instance Method] [private]
+  Transform data
+
+  ⚙️ Parameters: none
+
+  📋 Returns: void
+
+📄 publicFunctionWithFunctionAndNumberArgs
+  ────────────────────────────────────────
+  [Function Method] [public]
+  ⚙️ Parameters: none
+
+  📋 Returns: void
+
+📄 publicArrowFunctionWithFunctionArg
+  ────────────────────────────────────────
+  [Function Method] [public]
+  ⚙️ Parameters: none
+
+  📋 Returns: void
+
+📄 publicFunctionWithUnknownArg
+  ────────────────────────────────────────
+  [Function Method] [public]
+  ⚙️ Parameters: none
+
+  📋 Returns: void
+
+📄 publicArrowFunctionWithUnknownArg
+  ────────────────────────────────────────
+  [Function Method] [public]
+  ⚙️ Parameters: none
+
+  📋 Returns: void
+
+📄 publicArrowFunctionWithUnknownArrayArgs
+  ────────────────────────────────────────
+  [Function Method] [public]
+  ⚙️ Parameters: none
+
+  📋 Returns: void
+
+════════════════════════════════════════════════════════════

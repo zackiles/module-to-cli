@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches-ignore:
+      - main
+
+
+jobs:
+  validate:
+    name: Validate Code Quality
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+
+      - name: Validate code quality
+        run: deno task pre-publish
+        # This will run deno fmt, deno check, and deno lint
+        # If any of these fail, the workflow will fail and block PR merge
+      - name: Test publication process
+        run: deno task publish --dry-run
+        # This will test if the publication process would work without actually publishing
+        # Helps catch issues in the publication pipeline before merging
