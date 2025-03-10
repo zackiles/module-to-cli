@@ -1,0 +1,178 @@
+
+// simple-module.ts was auto-generated for testing purposes. Do NOT edit it!
+// It represents a golden response from the AST parser for the associated file with the same name (different extension).
+//
+// You can re-generate it by running:
+//   'deno task golden-mocks'
+{
+  "methods": {
+    "greet": {
+      "name": "greet",
+      "description": "",
+      "params": [],
+      "returns": null,
+      "methodKind": "function",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "add": {
+      "name": "add",
+      "description": "Adds two numbers together",
+      "params": [
+        {
+          "name": "a",
+          "type": {
+            "baseType": "number",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "number"
+          },
+          "description": "- First number",
+          "optional": false
+        },
+        {
+          "name": "b",
+          "type": {
+            "baseType": "number",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "number"
+          },
+          "description": "- Second number",
+          "optional": false
+        }
+      ],
+      "returns": {
+        "type": {
+          "baseType": "number",
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "number"
+        },
+        "description": "sum of a and b"
+      },
+      "methodKind": "function",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "Calculator.constructor": {
+      "name": "Calculator.constructor",
+      "description": "Creates a new Calculator",
+      "params": [
+        {
+          "name": "initialValue",
+          "type": {
+            "baseType": "number",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "number"
+          },
+          "description": "- Initial value for the calculator",
+          "optional": false
+        }
+      ],
+      "returns": null,
+      "methodKind": "constructor",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "Calculator.add": {
+      "name": "Calculator.add",
+      "description": "Adds a number to the current value",
+      "params": [
+        {
+          "name": "x",
+          "type": {
+            "baseType": "number",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "number"
+          },
+          "description": "- Number to add",
+          "optional": false
+        }
+      ],
+      "returns": {
+        "type": {
+          "baseType": "number",
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "number"
+        },
+        "description": "new value"
+      },
+      "methodKind": "instance",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "Calculator.subtract": {
+      "name": "Calculator.subtract",
+      "description": "Subtracts a number from the current value",
+      "params": [
+        {
+          "name": "x",
+          "type": {
+            "baseType": "number",
+            "isOptional": false,
+            "isNullable": false,
+            "rawType": "number"
+          },
+          "description": "- Number to subtract",
+          "optional": false
+        }
+      ],
+      "returns": {
+        "type": {
+          "baseType": "number",
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "number"
+        },
+        "description": "new value"
+      },
+      "methodKind": "instance",
+      "isAsync": false,
+      "visibility": "public"
+    },
+    "Calculator.getValue": {
+      "name": "Calculator.getValue",
+      "description": "Gets the current value",
+      "params": [],
+      "returns": {
+        "type": {
+          "baseType": "number",
+          "isOptional": false,
+          "isNullable": false,
+          "rawType": "number"
+        },
+        "description": "current value"
+      },
+      "methodKind": "instance",
+      "isAsync": false,
+      "visibility": "public"
+    }
+  },
+  "module": {
+    "name": "temp",
+    "description": "",
+    "fileName": "temp.ts",
+    "imports": [],
+    "exports": [
+      {
+        "name": "0",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "1",
+        "isDefault": false,
+        "isReexport": false
+      },
+      {
+        "name": "2",
+        "isDefault": false,
+        "isReexport": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+Module Information:
+==================
+
+Name: temp
+File: temp.ts
+Exports:
+  - 0
+  - 1
+  - 2
+
+
+
+🚀 Module Methods
+════════════════════════════════════════════════════════════
+Detailed Method Information
+
+📄 greet
+  ────────────────────────────────────────
+  [Function Method] [public]
+  ⚙️ Parameters: none
+
+  📋 Returns: void
+
+📄 add
+  ────────────────────────────────────────
+  [Function Method] [public]
+  Adds two numbers together
+
+  ⚙️ Parameters:
+    a: number
+      - First number
+    b: number
+      - Second number
+
+  📋 Returns:
+    number
+    sum of a and b
+
+📄 Calculator.constructor
+  ────────────────────────────────────────
+  [Constructor Method] [public]
+  Creates a new Calculator
+
+  ⚙️ Parameters:
+    initialValue: number
+      - Initial value for the calculator
+
+📄 Calculator.add
+  ────────────────────────────────────────
+  [Instance Method] [public]
+  Adds a number to the current value
+
+  ⚙️ Parameters:
+    x: number
+      - Number to add
+
+  📋 Returns:
+    number
+    new value
+
+📄 Calculator.subtract
+  ────────────────────────────────────────
+  [Instance Method] [public]
+  Subtracts a number from the current value
+
+  ⚙️ Parameters:
+    x: number
+      - Number to subtract
+
+  📋 Returns:
+    number
+    new value
+
+📄 Calculator.getValue
+  ────────────────────────────────────────
+  [Instance Method] [public]
+  Gets the current value
+
+  ⚙️ Parameters: none
+
+  📋 Returns:
+    number
+    current value
+
+════════════════════════════════════════════════════════════
