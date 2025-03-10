@@ -1,6 +1,6 @@
 {
   "name": "@deno-kit/module-to-cli",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Invoke methods on a plain Typescript file through your terminal.",
   "exports": "./src/main.ts",
   "license": "MIT",
