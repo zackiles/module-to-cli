@@ -3,6 +3,8 @@
 [![JSR](https://jsr.io/badges/@deno-kit/module-to-cli)](https://jsr.io/@deno-kit/module-to-cli)
 [![JSR Score](https://jsr.io/badges/@deno-kit/module-to-cli/score)](https://jsr.io/@deno-kit/module-to-cli)
 [![JSR Scope](https://jsr.io/badges/@deno-kit)](https://jsr.io/@deno-kit)
+[![ci](https://github.com/zackiles/module-to-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/zackiles/module-to-cli/actions/workflows/ci.yml)
+[![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/zackiles/module-to-cli/blob/main/LICENSE)
 
 > Invoke methods on a plain TypeScript file through your terminal
 
